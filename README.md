@@ -1,4 +1,5 @@
 # MATH 데이터셋 프롬프팅 실험
+- 2025.07.28 작성(연구 아이디어)
 
 이 저장소는 MATH 데이터셋의 수학 문제를 풀기 위해 다양한 프롬프팅 전략의 성능을 비교하는 Python 스크립트(`main.py`)를 포함합니다. 실험은 **Zero-shot**, **Few-shot**, **Few-shot-CoT**, **Zero-shot-CoT**, **Zero-shot-SoT**, **Few-shot-SoT** 등 6가지 프롬프팅 방법을 평가합니다. 주요 목표는 새로운 **Silent-of-Thought (SoT)** 프롬프팅 전략("Think silently and only output the answer")이 단계별 추론을 명시적으로 요구하는 기존 **Chain-of-Thought (CoT)** 프롬프팅보다 더 나은 성능을 보이는지 확인하는 것입니다.
 
